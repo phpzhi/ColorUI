@@ -1,24 +1,24 @@
-<custom style="height:{{CustomBar}}px;">
-  <bar class="fixed gradual-blue" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+  <view class="cu-bar fixed gradual-blue" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
     <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
-      <icon class='icon-back'/> 文本
+      <text class='icon-back'></text> 文本
     </navigator>
     <view class='action'>
 
     </view>
-  </bar>
-</custom>
-<bar class="solid-bottom">
-  <view class='action'>
-    <icon class='icon-title text-blue'/>文字大小
   </view>
-</bar>
+</view>
+<view class="cu-bar solid-bottom">
+  <view class='action'>
+    <text class='icon-title text-blue'></text>文字大小
+  </view>
+</view>
 <view class='bg-white padding-lr'>
   <view class='solids-bottom padding-xs flex align-center'>
     <view class='padding'>60</view>
     <view class='flex-sub text-center'>
       <view class='solid-bottom text-xsl padding'>
-        <icon class=' icon-roundcheckfill text-green'/>
+        <text class=' icon-roundcheckfill text-green'></text>
       </view>
       <view class='padding'>用于图标、数字等特大显示</view>
     </view>
@@ -27,7 +27,7 @@
     <view class='padding'>40</view>
     <view class='flex-sub text-center'>
       <view class='solid-bottom text-sl padding'>
-        <icon class=' icon-roundcheckfill text-green'/>
+        <text class=' icon-roundcheckfill text-green'></text>
       </view>
       <view class='padding'>用于图标、数字等较大显示</view>
     </view>
@@ -85,11 +85,11 @@
     </view>
   </view>
 </view>
-<bar class="solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top">
   <view class='action'>
-    <icon class='icon-title text-blue'/>文字颜色
+    <text class='icon-title text-blue'></text>文字颜色
   </view>
-</bar>
+</view>
 <view class='grid col-5 padding-sm'>
   <view class='padding-sm' wx:for="{{list}}" wx:key>
     <view class='text-{{item.name}} text-center'>
@@ -97,29 +97,29 @@
     </view>
   </view>
 </view>
-<bar class="solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top">
   <view class='action'>
-    <icon class='icon-title text-blue'/>文字截断
+    <text class='icon-title text-blue'></text>文字截断
   </view>
-</bar>
+</view>
 <view class='padding bg-white'>
   <view class='text-cut padding bg-grey radius' style='width:220px'>我于杀戮之中绽放 ,亦如黎明中的花朵</view>
 </view>
-<bar class="solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top">
   <view class='action'>
-    <icon class='icon-title text-blue'/>文字对齐
+    <text class='icon-title text-blue'></text>文字对齐
   </view>
-</bar>
+</view>
 <view class='padding bg-white'>
   <view class='text-left padding'>我于杀戮之中绽放 ,亦如黎明中的花朵</view>
   <view class='text-center padding'>我于杀戮之中绽放 ,亦如黎明中的花朵</view>
   <view class='text-right padding'>我于杀戮之中绽放 ,亦如黎明中的花朵</view>
 </view>
-<bar class="solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top">
   <view class='action'>
-    <icon class='icon-title text-blue'/>特殊文字
+    <text class='icon-title text-blue'></text>特殊文字
   </view>
-</bar>
+</view>
 <view class='padding text-center'>
   <view class='padding-lr bg-white'>
     <view class='solid-bottom padding'>
